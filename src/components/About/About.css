@@ -1,0 +1,125 @@
+.About{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.About .title{
+    position: relative;
+}
+.title h2{
+    font-size: 60px;
+}
+.title img{
+    position: absolute;
+    width: 160px;
+    bottom: 0px;
+    z-index: -1;
+}
+.about_image{
+    max-width: 350px;
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+}
+.about_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+.about_right{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.about_right > div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about_skills{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about_skill{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.about_skill:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
+.about_skill p{
+    min-width: 130px;
+}
+.about_skill hr{
+    outline: none;
+    border: none;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    opacity: 1;
+}
+.about_skills div:nth-child(1) hr{
+    width: 80%;
+}
+.about_skills div:nth-child(2) hr{
+    width: 75%;
+}
+.about_skills div:nth-child(3) hr{
+    width: 85%;
+}
+.about_skills div:nth-child(4) hr{
+    width: 75%;
+}
+.about_skills div:nth-child(5) hr{
+    width: 60%;
+}
+@media (max-width:992px){
+    .about_right > div:first-child{
+         text-align: center;
+         margin-top: 50px;
+    }
+}
+@media (max-width:768px){
+    .title h2{
+         font-size: 45px;
+    }
+    .about_skill{
+        gap: 10px;
+    }
+    .about_skill p{
+        min-width: 85px;
+    }
+    .about_skills div:nth-child(1) hr{
+        width: 70%;
+    }
+    .about_skills div:nth-child(2) hr{
+       width: 65%;
+    }
+    .about_skills div:nth-child(3) hr{
+        width: 75%;
+    }
+    .about_skills div:nth-child(4) hr{
+        width: 65%;
+    }
+    .about_skills div:nth-child(5) hr{
+        width: 50%;
+    }
+}
+@media (max-width:575px){
+    .title h2{
+         font-size: 35px;
+    }
+    .title img{
+        width: 100px;
+        bottom: 5px;
+    }
+}
+

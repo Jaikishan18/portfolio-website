@@ -1,0 +1,49 @@
+.latest{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 90px;
+}
+.latest div:nth-child(2){
+    row-gap: 40px;
+}
+.lat_title{
+    position: relative;
+}
+.lat_title h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+.lat_work_image{
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+.lat_work_image img{
+    width: 100%;
+}
+.lat_work_image img:hover{
+    transform: scale(1.1);
+    border: 4px solid #ff00ff;
+    border-radius: 10px;
+    transition: .3s;
+}
+.lat_title img{
+    position: absolute;
+    width: 160px;
+    bottom: 0px;
+    z-index: -1;
+}
+@media (max-width:768px){
+    .lat_title h2{
+        font-size: 45px;
+    }
+}
+@media (max-width:575px){
+    .lat_title h2{
+        font-size: 35px;
+    }
+    .lat_title img{
+        width: 100px;
+    }
+}
