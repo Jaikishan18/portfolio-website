@@ -13,8 +13,9 @@ const Footer = () => {
                 <div className="footer_left">
                   <h1>Jai Kishan</h1>
                   <p>
-                    I am a frontend developer from, USA with 10 years of
-                    experience in companies like Microsoft, Tesla and Apple.
+                  I am an experienced Frontend Developer with passion of professional expertise in the field. 
+                    {/* I am a frontend developer from, USA with 10 years of
+                    experience in companies like Microsoft, Tesla and Apple. */}
                   </p>
                 </div>
               </Col>
